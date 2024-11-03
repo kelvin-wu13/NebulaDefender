@@ -1,5 +1,5 @@
 ## About
-Spaceshooter themed game with powerups, Random generated Animated shooting Alien,scoring system 
+Spaceshooter themed game with powerups, Random generated Animated shooting Alien,score and highscore system.Polished with post processing included.
 
 <tbody>
     <tr>
