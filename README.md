@@ -1,52 +1,59 @@
-# NebulaDefender
-<p align="center">
-  <img width="100%" alt="" src="">
-  </br>
-</p>
+## About
+Spaceshooter themed game with powerups, Random generated Animated shooting Alien,scoring system 
 
-## 🔴About
-Spaceshooter game. Defend your planet by shooting alien from outer space..
-
+<tbody>
+    <tr>
+      <td><img src="https://github.com/kelvin-wu13/kelvin-wu13/blob/main/GIF/SpaceShooter.gif"/></td>
+    </tr>
+  
 <br>
 
-## 🕹️Download Game (**Game not available yet**)
-Download game directly from GitHub.
-
-<br>
-
-## ▶️ Gameplay
-<img width="100%" src="https://github.com/kelvin-wu13/kelvin-wu13/blob/main/GIF/NebulaDefender.gif">
-
-<br>
-
-## 📋Project Info
-|  | |
-| ------------------- | ------------------------------------------------------------ |
-| Unity Version | Unity 2022.3.31f1 |
-| Development Time | 3 days |
-
-
-## 🕹️Game controls
-
-The following controls are bound in-game, for gameplay and testing.
-
-| Key Binding (Mouse & Keyboard)       |  Function          | 
-| ----------------- | ----------------- |
-| W          | UP |
-| S            | Down |
-| A             | Left  |
-| D             | Right  |
-<br>
-
-##  📜Scripts
-
-|  Script       | Description                                                  |
-| ------------------- | ------------------------------------------------------------ |
+## Scripts and Features
+scripts:
+|  Script       | Description                                                  | Development Time |
+| ------------------- | ------------------------------------------------------------ | -------------- |
 | `BackgroundScroller.cs` | Handles Unlimited background scroll |
 | `Bullet.cs` | Handles Bullet Damage and collision |
 | `CameraBounds.cs`  | Handle Camera and Out of Bound GameObject |
 | `Enemy.cs`  | Handles Enemy Behavior,Fire rate, and HP |
-| `EnemySpawner.cs`  | Handles enemy spawn |
-| `GameManager.cs`  | Handles score,High score, and Health Bar |
+| `EnemySpawner.cs`  | Handles enemy spawner |
+| `GameManager.cs`  | Manages game Score,High score, and Hearts | ≈ 
 | `PlayerController.cs`  | Handles Player movement and shoot |
 | `PowerUp.cs`  | Handles PowerUp effect  |
+| `etc`  | | ≈ 8 hours |
+
+This project also uses these package:
+- Universal RP
+
+Post Processing used:
+- Bloom
+- Chromatic Abberation
+- Vignette
+- Color Adjustment
+
+the game has:
+- Scoring and Highscore 
+- Power up
+- Randomly generated for Enemy Alien
+- Animation for Player and enemy alien
+- Background infinite scrolling
+- Post Processing 
+
+<br>
+
+## Game controls
+The following controls are bound in-game, for gameplay and testing.
+
+| Key Binding       | Function          |
+| ----------------- | ----------------- |
+| W,A,S,D           | Standard movement |
+
+<br>
+
+## Notes
+this game is developed in **Unity Editor 2022.3.31f1**
+
+Asset used:
+- BG,Player,Enemy,Bullets : https://guimaster.itch.io/star-defender-spaceshooter-game-assets
+- Letter for learners font: https://www.dafont.com/scoreboard-led.font
+
