@@ -12,15 +12,15 @@ Spaceshooter themed game with powerups, Random generated Animated shooting Alien
 scripts:
 |  Script       | Description                                                  | Development Time |
 | ------------------- | ------------------------------------------------------------ | -------------- |
-| `BackgroundScroller.cs` | Handles Unlimited background scroll |
-| `Bullet.cs` | Handles Bullet Damage and collision |
-| `CameraBounds.cs`  | Handle Camera and Out of Bound GameObject |
-| `Enemy.cs`  | Handles Enemy Behavior,Fire rate, and HP |
-| `EnemySpawner.cs`  | Handles enemy spawner |
-| `GameManager.cs`  | Manages game Score,High score, and Hearts | ≈ 
-| `PlayerController.cs`  | Handles Player movement and shoot |
-| `PowerUp.cs`  | Handles PowerUp effect  |
-| `etc`  | | ≈ 8 hours |
+| `BackgroundScroller.cs` | Handles Unlimited background scroll | ≈ 2 hours |
+| `Bullet.cs` | Handles Bullet Damage and collision | ≈ 2 hours |
+| `CameraBounds.cs`  | Handle Camera and Out of Bound GameObject | ≈ 3 hours |
+| `Enemy.cs`  | Handles Enemy Behavior,Fire rate, and HP | ≈ 3 hours |
+| `EnemySpawner.cs`  | Handles enemy spawner | ≈ 3 hours |
+| `GameManager.cs`  | Manages game Score,High score, and Hearts | ≈ 4 hours |
+| `PlayerController.cs`  | Handles Player movement and shoot | ≈ 4 hours |
+| `PowerUp.cs`  | Handles PowerUp effect  | ≈ 2 hours |
+| `etc`  | | ≈ 10 hours |
 
 This project also uses these package:
 - Universal RP
@@ -31,7 +31,7 @@ Post Processing used:
 - Vignette
 - Color Adjustment
 
-the game has:
+The game has:
 - Scoring and Highscore 
 - Power up
 - Randomly generated for Enemy Alien
